@@ -70,11 +70,11 @@ export default function Home() {
                 contactează-ne pe WhatsApp.
               </p>
               <p className="text-green-600 font-semibold text-lg">
-                +40 123 456 789
+              +40 723 904 905
               </p>
             </div>
             <a 
-              href="https://wa.me/40123456789"
+              href="https://wa.link/o76leu"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 text-white bg-green-500 hover:bg-green-600 transition-colors py-3 px-6 rounded"
