@@ -2,20 +2,20 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white" style={{ fontFamily: 'var(--font-right-grotesk)' }}>
+    <div className="min-h-screen bg-[#f0ead6]" style={{ fontFamily: 'var(--font-right-grotesk)' }}>
       {/* Header cu linia albastră */}
       <div className="w-full h-1 bg-blue-600"></div>
       
       {/* Header principal */}
-      <header className="px-8 py-6 flex justify-between items-start">
+      <header className="px-8 py-6 flex justify-center items-center md:justify-between md:items-start">
         <div className="flex flex-col">
           <Image
-            src="/image.png"
+            src="/genio-logo.png"
             alt="Genio Logo"
             width={200}
             height={80}
             priority
-            className="h-24 w-auto brightness-0"
+            className="h-24 w-auto"
           />
         </div>
         
